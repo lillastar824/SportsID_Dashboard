@@ -1,0 +1,180 @@
+.HeaderContainder {
+  width: 100% !important;
+  display: flex;
+  box-shadow: 0 0 2px 0 rgba(192, 192, 192, 0.5);
+  border-bottom: solid 1px #ededed;
+}
+
+.logoContainer {
+  box-shadow: 0 2px 0 0 rgba(192, 192, 192, 0.5);
+  border-right: solid 1px #ededed;
+  background-color: #ffffff;
+  padding: 10px 42px 10px 44px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.headerlogo {
+  width: 137px !important;
+}
+
+.HeaderRightContainer {
+  background-color: #fafafa;
+  padding: 5px 20px 5px 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.searchInput {
+  height: 22px;
+  padding: 5px 25px 5px 5px;
+  border-radius: 6px;
+  border: solid 1px #b6b4b3;
+  background-color: #ffffff;
+  font-family: Cabin;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #b6b4b3;
+  width: 40%;
+  background: url(../../../images/icons/icon-search.svg) no-repeat right;
+  background-position: 98%;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #b6b4b3;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #b6b4b3;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #b6b4b3;
+}
+
+.MessageButton {
+  font-family: Cabin;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #565656;
+  margin-left: 20px;
+  display: flex;
+  gap: 5px;
+}
+
+.NotificationButton {
+  font-family: Cabin;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #565656;
+  margin-left: 70px;
+  display: flex;
+  gap: 5px;
+  justify-content: start;
+  align-items: center;
+}
+
+.UserDetailsBox {
+  display: flex;
+  margin-left: auto;
+  justify-content: end;
+    align-items: center;
+}
+.userName{
+    font-family: Cabin;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #0044ce;
+
+}
+.profileStatusText {
+    font-family: Cabin;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ec6f00;
+}
+.userImage{
+margin-left: 10px;
+}
+.NotificationImage {
+  height: 20px;
+}
+
+.mobileSearch {
+    flex: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: stretch;
+    align-items: center;
+    gap:10px
+} 
+
+.mobileSearchMessageButton {
+    font-family: Cabin;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #565656;
+    display: flex;
+    gap: 5px;
+  }
+  
+  .mobileSearchNotificationButton {
+    font-family: Cabin;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #565656;
+    display: flex;
+    gap: 5px;
+    justify-content: start;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 600px){
+    .headerlogo {
+        width: 77px !important;
+      }
+      .logoContainer {
+        box-shadow: none;
+        border-right: solid 1px #ededed;
+        background-color: #ffffff;
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+      }
+}
