@@ -1,0 +1,158 @@
+.AgendaBoxContainer {
+    font-family: Cabin;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: #111111;
+}
+.top {
+  padding: 8px;
+font-weight: bold;
+border-bottom: solid 1px #ededed;
+}
+
+.BottomWrapper{
+  display: flex;
+  gap: 20px;
+}
+.Days{
+  font-family: Cabin;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.23;
+  letter-spacing: normal;
+  text-align: center;
+  color: #111111;
+}
+.LeftBoxContainer{
+  
+  width: 50% !important;
+}
+
+.LeftTop{
+  display: flex;
+  justify-content: space-between;
+  gap:20px;
+}
+.Dates{
+  font-family: Cabin;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: #111111;
+}
+
+.DatesActive{
+  color: #0044ce;
+}
+
+.CalenderIcon{
+  width: 17px;
+  height: 16px;
+  margin-top: 5px;
+}
+
+.RightBoxContainer{
+  font-family: Cabin;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  color: #3c3c3c;
+}
+
+.MapIconsContainer{
+  display: flex;
+  gap:10px;
+  justify-content: right;
+  align-items: flex-end;
+  margin-left: auto;
+}
+
+.LocationIcon{
+  width: 11px;
+  height: 16px;
+  margin-top: 5px;
+}
+
+.MapBottom{
+  display: flex;
+  gap: 20px;
+}
+.MapIcon {
+  width: 15px;
+  height: 15px;
+}
+
+.MapImage{
+width: 100%;
+height: 130px;
+}
+
+.TournamentListBox{
+  display: flex;
+  gap:20px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.Day{
+  font-family: Cabin;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: #111111;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.MonthAndYear{
+  font-family: Cabin;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  color: #b6b4b3;
+  margin-bottom: 10px;
+}
+
+.TournamentListBox{
+  border-radius: 4px;
+  background-color: #f7f7f7;
+  margin-bottom: 4px;
+  margin-top: 0px;
+}
+.TournamentListBoxActive{
+  border: solid 2px #ec6f00;
+}
+
+.CalendarBottom{
+  text-align: left;
+  margin-left: 35px;
+}
+
+.MapAddress{
+  font-family: Cabin;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  color: #3c3c3c;
+}

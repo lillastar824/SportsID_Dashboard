@@ -1,0 +1,96 @@
+.WeatherBoxContainer {
+    font-family: Cabin;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: #111111;
+  
+}
+
+.top {
+    padding: 8px;
+  font-weight: bold;
+  border-bottom: solid 1px #ededed;
+}
+.ContentFistRow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.CloudIcon{
+width: 20px;
+}
+.TempText{
+  font-family: Cabin;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: #111111;
+}
+
+.CityText{
+  font-family: Cabin;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  color: #111111;
+}
+
+.SpaceStatus{
+  font-family: Cabin;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  color: #b6b4b3;
+}
+
+.WeatherContentBottomRow{
+  display: flex;
+  width: 100%;
+  gap:30px;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.DayTempBox{
+  display: flex; 
+  flex-direction: column;
+  gap:10px;
+  align-items: center;
+}
+.Day{
+  font-family: Cabin;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.23;
+  letter-spacing: normal;
+  text-align: center;
+  color: #111111;
+}
+
+.CloudIconSmall{
+  width: 20px;
+}
+
+.TempTextSmall{
+  font-family: Cabin;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #b6b4b3;
+}

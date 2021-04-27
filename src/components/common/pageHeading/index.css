@@ -1,0 +1,31 @@
+.PageHeadingContainer{
+    font-family: FjallaOne;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.27px;
+  color: #565656;
+  padding: 20px 0px 0px 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.PoweredByText {
+    font-family: Cabin;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.Image {
+width: 37px;
+height: 25px;
+}

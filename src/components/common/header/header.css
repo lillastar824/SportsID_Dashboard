@@ -23,7 +23,7 @@
   background-color: #fafafa;
   padding: 5px 20px 5px 20px;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -84,17 +84,17 @@
   line-height: normal;
   letter-spacing: normal;
   color: #565656;
-  margin-left: 70px;
+  margin-left: 10px;
   display: flex;
   gap: 5px;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .UserDetailsBox {
   display: flex;
   margin-left: auto;
-  justify-content: end;
+  justify-content: flex-end;
     align-items: center;
 }
 .userName{
@@ -107,7 +107,7 @@
   letter-spacing: normal;
   text-align: right;
   color: #0044ce;
-
+white-space: nowrap;
 }
 .profileStatusText {
     font-family: Cabin;
@@ -119,6 +119,8 @@
   letter-spacing: normal;
   text-align: right;
   color: #ec6f00;
+white-space: nowrap;
+
 }
 .userImage{
 margin-left: 10px;
@@ -160,7 +162,7 @@ margin-left: 10px;
     color: #565656;
     display: flex;
     gap: 5px;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
   }
 

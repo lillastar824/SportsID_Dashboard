@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import Link from "../atoms/Link";
+import React from "react";
 import Image from "../atoms/image";
 import "./index.css";
 import DashboardIcon from "../../../images/icons/icon-menu-dashboard.svg";

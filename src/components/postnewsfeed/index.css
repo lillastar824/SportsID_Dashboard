@@ -1,0 +1,41 @@
+.postNewsFeedContainer {
+  font-family: Cabin;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: #111111;
+}
+
+.top {
+  padding: 8px;
+  font-weight: bold;
+  border-bottom: solid 1px #ededed;
+}
+
+.TextArea {
+  position: relative;
+  width: 90%;
+  height: 50px;
+  border: none;
+  padding: 10px;
+}
+
+.bottom {
+  padding: 8px;
+  font-weight: bold;
+  border-top: solid 1px #ededed;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+}
+
+.newsFeedDummy {
+    width: 120px;
+}
+
+.rightButton{
+    margin-left: auto;
+}

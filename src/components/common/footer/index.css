@@ -1,0 +1,34 @@
+.FooterContainer{
+    padding: 21px 0 16px 35px;
+  background-color: #3c3c3c;
+  display: flex;
+  justify-content: space-between;
+}
+
+.CopyrightSection{
+    font-family: Cabin;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.MenuSection{
+    font-family: Cabin;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+    display: flex;
+    gap:20px;
+    color: #e3a600;
+}
+
+.SocialMediaIconsSection{
+    display: flex;
+}

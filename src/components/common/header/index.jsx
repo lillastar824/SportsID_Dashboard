@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./header.css";
-import Link from "../atoms/Link";
 import HeaderLogo from "../../../images/header-logo.png";
 import Image from "../atoms/image";
 import Input from "../atoms/input";
@@ -10,9 +9,17 @@ import UserImage from '../../../images/avatar-user-profile-sm.jpg'
 import { isMobile } from '../../../utils/common'
 
 const Header = () => {
+  const [screenSize, getScreenSize] = useState(0);
+  useEffect(() => {
+    document.addEventListener("resize", () => {
+      getScreenSize(window.screen.width);
+    });
+  }, []);
   const rightBoxWidth = isMobile() ? window.screen.width - 137 : window.screen.width - 227;
   return (
     <>
+  {console.log("screenSize", screenSize)}
+
       <div className="HeaderContainder">
         <div className="logoContainer">
           <Image src={HeaderLogo} className="headerlogo" />
